@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@media (max-width: 400px){
+    body{
+        font-family: "Titillium Web", serif;
+        background-color: rgb(94, 138, 123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        }
+    .container { 
+        display: flex;
+        background-image: url("https://cdn.sanity.io/images/9cmi36py/production/2760940903f629a07716d70f3b9542c6ea4fff16-400x600.jpg");
+        border-radius: 10px;
+        overflow: hidden;
+        background-position: center;
+        /* max-width: 780px; */
+        width: 390px;
+        height: 550px;
+        width: 390px;
+        height: 550px;
+        
+        
+   
+        
+    }
+   
+    
+    .left{
+        /* margin-left: 20px; */
+        display: block;
+        color: rgb(255, 255, 255);
+        padding: 32px;
+        margin-right: 35px;
+        justify-content: center;
+        
+    }
+    #head{
+        margin-top: 30px;
+        margin-bottom: -11px;
+    
+    }
+    #para{
+        font-size: 11px;
+        margin-bottom: 30px;
+        justify-content: flex-end;
+    }
+    #email, #password, #repassword{
+        padding: 8px 10px; 
+        width: 290px;
+        border: 2px solid rgb(94, 138, 123);
+        border-radius: 5px;
+        font-size: 10px;
+        margin-bottom: 2px;
+        text-align: left;
+        
+    }
+        
+    
+    
+    .label, .gender{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    #checkbox{
+        margin-top: 2px;
+        margin-bottom: 30px;
+    }
+    #remember{
+        font-size: 12px;
+        padding-bottom: 30px;
+        color: black;
+    }
+    
+    #login{
+        padding: 9px 141px;
+        background-color: rgb(94, 138, 123);
+        /* border: 1px solid #ccc; */
+        border-radius: 5px;
+        font-size: 11px;
+        margin-bottom: 5px;
+        border: none;
+        
+    }
+    #login:hover{
+        color: rgb(94, 138, 123);
+        background-color: white;
+        border: 0.5px solid rgb(94, 138, 123);
+    }
+    
+    
+    #google{
+        padding: 7px 89px;
+        border-radius: 5px;
+        font-size: px;
+        background-color: white;
+        border: 2px solid #ccc;
+    
+    }
+    #google:hover{
+        background-color: rgb(94, 138, 123);
+        border: none;
+        color: white;
+    }
+    #existing{
+        font-size: 12px;
+        justify-content: center;
+        padding-left: 105px;
+        padding-bottom: 70px;
+        bottom: 100px;
+    }
+    
+    #user{
+        text-decoration: none; 
+        color: rgb(94, 138, 123);
+        align-items: center;
+        font-size: 12px;
+    }
+    
+    .right{
+        display: none;
+    }
+    
+}
+@media (min-width: 400px) and (max-width: 900px){
+    body{
+        font-family: "Titillium Web", serif;
+        background-color: rgb(94, 138, 123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+        margin: 41px;
+        }
+    .container { 
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        /* max-width: 780px; */
+        width: 390px;
+        height: 550px;
+        
+   
+        
+    }
+   
+    
+    .left{
+        margin-left: 20px;
+        display: block;
+        color: rgb(0, 0, 0);
+        padding: 14px;
+        /* margin-right: 25px; */
+        justify-content: center;
+    }
+    #head{
+        margin-top: 30px;
+        margin-bottom: -11px;
+    
+    }
+    #para{
+        font-size: 11px;
+        margin-bottom: 30px;
+        justify-content: flex-end;
+    }
+    #email, #password, #repassword{
+        padding: 8px 10px; 
+        width: 290px;
+        border: 2px solid rgb(94, 138, 123);
+        border-radius: 5px;
+        font-size: 10px;
+        margin-bottom: 2px;
+        text-align: left;
+        
+    }
+        
+    
+    
+    .label, .gender{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    #checkbox{
+        margin-top: 2px;
+        margin-bottom: 30px;
+    }
+    #remember{
+        font-size: 12px;
+        padding-bottom: 30px;
+        color: black;
+    }
+    
+    #login{
+        padding: 9px 141px;
+        background-color: rgb(94, 138, 123);
+        /* border: 1px solid #ccc; */
+        border-radius: 5px;
+        font-size: 11px;
+        margin-bottom: 5px;
+        border: none;
+        
+    }
+    #login:hover{
+        color: rgb(94, 138, 123);
+        background-color: white;
+        border: 0.5px solid rgb(94, 138, 123);
+    }
+    
+    
+    #google{
+        padding: 7px 89px;
+        border-radius: 5px;
+        font-size: px;
+        background-color: white;
+        border: 2px solid #ccc;
+    
+    }
+    #google:hover{
+        background-color: rgb(94, 138, 123);
+        border: none;
+        color: white;
+    }
+    #existing{
+        font-size: 12px;
+        justify-content: center;
+        padding-left: 105px;
+        padding-bottom: 70px;
+        bottom: 100px;
+    }
+    
+    #user{
+        text-decoration: none; 
+        color: rgb(94, 138, 123);
+        align-items: center;
+        font-size: 12px;
+    }
+    
+    .right{
+        display: none;
+    }
+}
+
+
+
+
+@media (min-width: 900px) {
+    body{
+        font-family: "Titillium Web", serif;
+        background-color: rgb(94, 138, 123);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+.container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 780px;
+    width: 100%;
+}
+
+.left{
+    margin-left: 40px;
+}
+
+#head{
+    margin-top: 30px;
+    margin-bottom: -11px;
+
+}
+#para{
+    font-size: 11px;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+}
+#email, #password, #repassword{
+    padding: 8px 10px; 
+    width: 290px;
+    border: 2px solid rgb(94, 138, 123);
+    border-radius: 5px;
+    font-size: 10px;
+    margin-bottom: 2px;
+    text-align: left;
+    
+}
+    
+
+
+.label, .gender{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#checkbox{
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+#remember{
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+#login{
+    padding: 9px 141px;
+    background-color: rgb(94, 138, 123);
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    font-size: 11px;
+    margin-bottom: 5px;
+    border: none;
+    
+}
+#login:hover{
+    color: rgb(94, 138, 123);
+    background-color: white;
+    border: 0.5px solid rgb(94, 138, 123);
+}
+
+
+#google{
+    padding: 7px 89px;
+    border-radius: 5px;
+    font-size: px;
+    background-color: white;
+    border: 2px solid #ccc;
+
+}
+#google:hover{
+    background-color: rgb(94, 138, 123);
+    border: none;
+    color: white;
+}
+#existing{
+    font-size: 12px;
+    justify-content: center;
+    padding-left: 105px;
+    padding-bottom: 70px;
+    bottom: 100px;
+}
+
+#user{
+    text-decoration: none; 
+    color: rgb(94, 138, 123);
+    align-items: center;
+    font-size: 12px;
+}
+
+.image{
+    width: 50%;
+    float: right;
+    padding-right: 174px;
+    position: relative;
+    padding-top: 11px;
+    padding-bottom: 5px;
+    padding-left: 29px;
+    border-radius: 5px;
+    border-radius: 4px;
+}
+
+.image img {
+    width: 370px;
+    height: 600%;
+    object-fit: cover;
+    padding-left: -250px;
+    z-index: -1;
+}
+
+/* .image .headandpara {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+} */
+.righthead {
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    bottom: 55px;
+    display: flex;
+    width: 350px;
+    position: absolute;
+    padding-left: 10px;
+    object-fit: cover;
+}
+
+.rightpara {
+    font-size: 11px;
+    font-weight: 200;
+    color: rgb(252, 252, 252);
+    /* font-weight: bold; */
+    bottom: 20px;
+    display: flex;
+    width: 350px;
+    position: absolute;
+    padding-left: 10px;
+    object-fit: cover;
+}
+
+div.right{
+    width: 435px;
+    border-radius: 5px;
+}
+}
