@@ -14,43 +14,35 @@
 <body>
     <div class="container">
         <div class="left">
-            <h3 id="head">Register Now</h3>
-            <p id="para">Brighten your path, discover opportunities, register today with Northern Light!</p>
-            <div class="form-section">
-                <form>
-                    <div>
-                        <label for="firstName" class="label">First Name</label><br>
-                        <input type="text" id="firstName" placeholder="First Name" required>
-                    </div>
-                    <div>
-                        <label for="lastName" class="label">Last Name</label><br>
-                        <input type="text" id="lastName" placeholder="Last Name" required>
-                    </div>
-                    <div>
-                        <label for="email" class="label">Email</label><br>
-                        <input type="email" id="email" placeholder="Email" required>
-                    </div>
-                    <div>
+            <h3 id="head">Register Now</h2>
+                <p id="para">Brighten your path, discover opportunities, register today with Northern Light!</p>
+                <div class="form-section">
+                    <form>
+                        <div>
+                            <label for="email" class="label">Email</label><br>
+                            <input type="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <label class="gender">Gender</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male" class="gender">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female" class="gender">Female</label>
+                        </div>
+                        <div>
+                            <label for="password" class="label">Password</label><br>
+                            <input type="password" id="password" placeholder="Password" required>
+                        </div>
                         <label for="password" class="label">Password</label><br>
-                        <input type="password" id="password" placeholder="Password" required>
-                    </div>
-                    <div>
-                        <label for="repassword" class="label">Confirm Password</label><br>
                         <input type="password" id="repassword" placeholder="Confirm Password" required>
-                    </div>
-                    <div>
-                        <label class="gender">Gender</label>
-                        <input type="radio" id="male" name="gender" value="male">
-                        <label for="male" class="gender">Male</label>
-                        <input type="radio" id="female" name="gender" value="female">
-                        <label for="female" class="gender">Female</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="checkbox" for="remember">
-                        <label id="remember" for="checkbox">Remember Me</label>
-                    </div>
-                    <button type="submit" id="login" class="button">Register</button> <br>
-                    <button type="submit" id="google" class="button"><i class="fa-brands fa-google"></i> Sign in with Google</button>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox" for="remember">
+                    <label id="remember" for="checkbox">Remember Me</label>
+                </div>
+                <button type="submit" id="login" class="button">Log in</button> <br>
+                <button type="submit" id="google" class="button"><i class="fa-brands fa-google"></i> Sign in with
+                    Google</button>
                 </form>
                 <p id="existing">Existing user? <a href="#" id="user">Log in</a></p>
             </div>
