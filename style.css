@@ -41,6 +41,7 @@
         text-align: center;
         margin-top: 30px;
         margin-bottom: -11px;
+       
     
     }
     #para{
@@ -54,7 +55,7 @@
         width: 290px;
         border: 2px solid rgb(94, 138, 123);
         border-radius: 5px;
-        font-size: 10px;
+        font-size: 15px;
         margin-bottom: 2px;
         text-align: left;
         
@@ -63,8 +64,9 @@
     
     
     .label, .gender{
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
+
     }
     
     #checkbox{
@@ -82,7 +84,7 @@
         background-color: rgb(94, 138, 123);
         /* border: 1px solid #ccc; */
         border-radius: 5px;
-        font-size: 11px;
+        font-size: 12px;
         margin-bottom: 5px;
         border: none;
         

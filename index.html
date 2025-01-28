@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registation Form</title>
+    <title>Registration Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,37 +14,46 @@
 <body>
     <div class="container">
         <div class="left">
-            <h3 id="head">Register Now</h2>
-                <p id="para">Brighten your path, discover opportunities, register today with Northern Light!</p>
-                <div class="form-section">
-                    <form>
-                        <div>
-                            <label for="email" class="label">Email</label><br>
-                            <input type="email" id="email" placeholder="Email" required>
-                        </div>
-                        <div>
-                            <label class="gender">Gender</label>
-                            <input type="radio" id="male" name="gender" value="male">
-                            <label for="male" class="gender">Male</label>
-                            <input type="radio" id="female" name="gender" value="female">
-                            <label for="female" class="gender">Female</label>
-                        </div>
-                        <div>
-                            <label for="password" class="label">Password</label><br>
-                            <input type="password" id="password" placeholder="Password" required>
-                        </div>
+            <h3 id="head">Register Now</h3>
+            <p id="para">Brighten your path, discover opportunities, register today with Northern Light!</p>
+            <div class="form-section">
+                <form>
+                    <div>
+                        <label for="firstName" class="label">First Name</label><br>
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                    </div>
+                    <div>
+                        <label for="lastName" class="label">Last Name</label><br>
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="label">Email</label><br>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div>
                         <label for="password" class="label">Password</label><br>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div>
+                        <label for="repassword" class="label">Confirm Password</label><br>
                         <input type="password" id="repassword" placeholder="Confirm Password" required>
-                </div>
-                <div>
-                    <input type="checkbox" id="checkbox" for="remember">
-                    <label id="remember" for="checkbox">Remember Me</label>
-                </div>
-                <button type="submit" id="login" class="button">Log in</button> <br>
-                <button type="submit" id="google" class="button"><i class="fa-brands fa-google"></i> Sign in with
-                    Google</button>
+                    </div>
+                    <div>
+                        <label class="gender">Gender</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male" class="gender">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="gender">Female</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox" for="remember">
+                        <label id="remember" for="checkbox">Remember Me</label>
+                    </div>
+                    <button type="submit" id="login" class="button">Register</button> <br>
+                    <button type="submit" id="google" class="button"><i class="fa-brands fa-google"></i> Sign in with Google</button>
                 </form>
                 <p id="existing">Existing user? <a href="#" id="user">Log in</a></p>
+            </div>
         </div>
 
         <div class="right">
@@ -54,10 +63,8 @@
                 <div class="headandpara">
                     <h2 class="righthead">VitalFlow Northern Lights</h2>
                     <p class="rightpara">Under the Northern Lights, the universe paints its masterpiece, illuminating
-                        the night with etherealhues and timeless wonder.</p>
-                    </div>
+                        the night with ethereal hues and timeless wonder.</p>
                 </div>
-                
             </div>
         </div>
     </div>
